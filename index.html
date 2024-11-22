@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predator</title>
+    <link rel="stylesheet" href="cs.css"> <!-- Link to the provided CSS -->
+    <script defer src="js/game.js"></script> <!-- Link the game script -->
+</head>
+<body>
+    <button id="startButton">Start Game</button>
+    <div id="gameContainer"></div> <!-- Container for the game canvas -->
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', function () {
+            this.style.display = 'none'; // Hide the button
+            startGame(); // Start the game
+        });
+    </script>
+</body>
+</html>
